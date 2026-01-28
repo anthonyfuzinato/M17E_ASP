@@ -76,6 +76,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\BaseDados.cs" />
+    <Compile Include="Classes\Utilizadores.cs" />
     <Compile Include="cookies.aspx.cs">
       <DependentUpon>cookies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
