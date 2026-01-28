@@ -116,6 +116,7 @@ namespace M17E_intro.Imagens
                 // guardar
                 string ficheiro = Server.MapPath("~/Imagens/") + fu_foto_perfil.FileName;
                 fu_foto_perfil.SaveAs(ficheiro);
+                lb_erro.Text = "Compra registrada com sucesso";
             }
             
             catch (Exception ex)
