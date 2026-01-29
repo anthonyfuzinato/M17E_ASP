@@ -31,13 +31,13 @@ namespace M17E_intro.Classes
             {
                 new SqlParameter()
                 {
-                    ParameterName = '@email',
+                    ParameterName = "@email",
                     SqlDbType = SqlDbType.NVarChar,
                     Value = email
                 },
                 new SqlParameter()
                 {
-                    ParameterName='@palavra_passe',
+                    ParameterName="@palavra_passe",
                     SqlDbType=SqlDbType.NVarChar,
                     Value= password
                 }

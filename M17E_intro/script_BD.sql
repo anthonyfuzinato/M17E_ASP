@@ -13,3 +13,6 @@ create table utilizadores (
 /* Criar um admin */
 insert into utilizadores (email, nome, palavra_passe, sal, perfil)
 values ('admin@gmail.com','admin',HASHBYTES('SHA2_512','123450'),0,0);
+
+insert into utilizadores(email, nome, palavra_passe, sal, perfil)
+values ('anthony@gmail.com','admin',HASHBYTES('SHA2_512','123450'),0,0);
