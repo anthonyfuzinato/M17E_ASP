@@ -19,17 +19,18 @@ namespace M17E_intro
                 Response.Redirect("login.aspx");
             }
 
-            if (Session["ip"].ToString()!= Request.UserHostAddress || Session["useragent"].ToString() != Request.UserAgent)
+            if (Session["ip"] != Request.UserHostAddress || Session["useragent"].ToString() != Request.UserAgent)
             {
-                //terminar sessao
-
-                Response.Redirect("login.aspx");
+                //Terminar sessão
+                bt_logout_Click(sender, e);
             }
         }
 
         protected void bt_logout_Click(object sender, EventArgs e)
         {
-
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("login.aspx");
         }
     }
 }

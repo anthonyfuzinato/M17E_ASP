@@ -32,13 +32,13 @@ namespace M17E_intro.Classes
                 new SqlParameter()
                 {
                     ParameterName = "@email",
-                    SqlDbType = SqlDbType.NVarChar,
+                    SqlDbType = SqlDbType.VarChar,
                     Value = email
                 },
                 new SqlParameter()
                 {
                     ParameterName="@palavra_passe",
-                    SqlDbType=SqlDbType.NVarChar,
+                    SqlDbType=SqlDbType.VarChar,
                     Value= password
                 }
             };

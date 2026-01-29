@@ -79,6 +79,7 @@
     <Content Include="Login.aspx" />
     <Content Include="public\css\estilos.css" />
     <Content Include="Resultado.aspx" />
+    <Content Include="Utilizador\DAD\adicionar.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +141,13 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Utilizador\DAD\adicionar.aspx.cs">
+      <DependentUpon>adicionar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilizador\DAD\adicionar.aspx.designer.cs">
+      <DependentUpon>adicionar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
