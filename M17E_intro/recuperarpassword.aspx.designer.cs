@@ -11,52 +11,34 @@ namespace M17E_intro
 {
 
 
-    public partial class Login
+    public partial class recuperarpassword
     {
 
         /// <summary>
-        /// Controle tb_email.
+        /// Controle form1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_email;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle tb_password.
+        /// Controle tb_Palavra_passe.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_password;
+        protected global::System.Web.UI.WebControls.TextBox tb_Palavra_passe;
 
         /// <summary>
-        /// Controle bt_login.
+        /// Controle bt_Recuperar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_login;
-
-        /// <summary>
-        /// Controle bt_RecuperarPalavraPasse.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_RecuperarPalavraPasse;
-
-        /// <summary>
-        /// Controle lb_erro.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_erro;
+        protected global::System.Web.UI.WebControls.Button bt_Recuperar;
     }
 }

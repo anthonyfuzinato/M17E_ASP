@@ -7,12 +7,39 @@
 // </gerado automaticamente>
 //------------------------------------------------------------------------------
 
-namespace M17E_intro
+namespace M17E_intro.Utilizador.Codigo
 {
 
 
-    public partial class Login
+    public partial class Gerir
     {
+
+        /// <summary>
+        /// Controle form1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        /// <summary>
+        /// Controle gvUtilizadores.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvUtilizadores;
+
+        /// <summary>
+        /// Controle tb_nome.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tb_nome;
 
         /// <summary>
         /// Controle tb_email.
@@ -33,22 +60,22 @@ namespace M17E_intro
         protected global::System.Web.UI.WebControls.TextBox tb_password;
 
         /// <summary>
-        /// Controle bt_login.
+        /// Controle dd_perfil.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_login;
+        protected global::System.Web.UI.WebControls.DropDownList dd_perfil;
 
         /// <summary>
-        /// Controle bt_RecuperarPalavraPasse.
+        /// Controle bt_guardar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_RecuperarPalavraPasse;
+        protected global::System.Web.UI.WebControls.Button bt_guardar;
 
         /// <summary>
         /// Controle lb_erro.

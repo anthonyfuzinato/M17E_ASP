@@ -7,56 +7,56 @@
 // </gerado automaticamente>
 //------------------------------------------------------------------------------
 
-namespace M17E_intro
+namespace M17E_intro.Utilizador.Codigo
 {
 
 
-    public partial class Login
+    public partial class EditarUtilizador
     {
 
         /// <summary>
-        /// Controle tb_email.
+        /// Controle form1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_email;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle tb_password.
+        /// Controle tbNome.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_password;
+        protected global::System.Web.UI.WebControls.TextBox tbNome;
 
         /// <summary>
-        /// Controle bt_login.
+        /// Controle btEditar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_login;
+        protected global::System.Web.UI.WebControls.Button btEditar;
 
         /// <summary>
-        /// Controle bt_RecuperarPalavraPasse.
+        /// Controle btVoltar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bt_RecuperarPalavraPasse;
+        protected global::System.Web.UI.WebControls.Button btVoltar;
 
         /// <summary>
-        /// Controle lb_erro.
+        /// Controle lbErro.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Para modificar, mova a declaração de campo do arquivo de designer a um arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_erro;
+        protected global::System.Web.UI.WebControls.Label lbErro;
     }
 }

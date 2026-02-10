@@ -78,7 +78,12 @@
     <Content Include="index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="public\css\estilos.css" />
+    <Content Include="public\JS\codigo.js" />
+    <Content Include="recuperarpassword.aspx" />
     <Content Include="Resultado.aspx" />
+    <Content Include="Utilizador\Codigo\EditarUtilizador.aspx" />
+    <Content Include="Utilizador\Codigo\Gerir.aspx" />
+    <Content Include="Utilizador\Codigo\RemoverUtilizador.aspx" />
     <Content Include="Utilizador\DAD\adicionar.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -91,6 +96,8 @@
       <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Classes\BaseDados.cs" />
+    <Compile Include="Classes\Helper.cs" />
+    <Compile Include="Classes\ReCaptcha.cs" />
     <Compile Include="Classes\Utilizadores.cs" />
     <Compile Include="cliente.aspx.cs">
       <DependentUpon>cliente.aspx</DependentUpon>
@@ -128,6 +135,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recuperarpassword.aspx.cs">
+      <DependentUpon>recuperarpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recuperarpassword.aspx.designer.cs">
+      <DependentUpon>recuperarpassword.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Resultado.aspx.cs">
       <DependentUpon>Resultado.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -141,6 +155,27 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Utilizador\Codigo\EditarUtilizador.aspx.cs">
+      <DependentUpon>EditarUtilizador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilizador\Codigo\EditarUtilizador.aspx.designer.cs">
+      <DependentUpon>EditarUtilizador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilizador\Codigo\Gerir.aspx.cs">
+      <DependentUpon>Gerir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilizador\Codigo\Gerir.aspx.designer.cs">
+      <DependentUpon>Gerir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilizador\Codigo\RemoverUtilizador.aspx.cs">
+      <DependentUpon>RemoverUtilizador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilizador\Codigo\RemoverUtilizador.aspx.designer.cs">
+      <DependentUpon>RemoverUtilizador.aspx</DependentUpon>
     </Compile>
     <Compile Include="Utilizador\DAD\adicionar.aspx.cs">
       <DependentUpon>adicionar.aspx</DependentUpon>
